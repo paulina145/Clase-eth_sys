@@ -147,11 +147,11 @@ with g2:
 st.divider()
 d1, d2 = st.columns(2)
 with d1: 
-    if os.path.exists("Bloques_ISO.pdf"): 
-        with open("Bloques_ISO.pdf", "rb") as f: st.download_button("⬇️ Descargar Bloques", f, "Bloques_ISO.pdf")
+    if os.path.exists("Bloques_ISO (2).pdf"): 
+        with open("Bloques_ISO.pdf (2)", "rb") as f: st.download_button("⬇️ Descargar Bloques", f, "Bloques_ISO.pdf")
 with d2:
-    if os.path.exists("PFD_ISO.pdf"): 
-        with open("PFD_ISO.pdf", "rb") as f: st.download_button("⬇️ Descargar PFD", f, "PFD_ISO.pdf")
+    if os.path.exists("PFD_ISO.pdf (2)"): 
+        with open("PFD_ISO.pdf" (2), "rb") as f: st.download_button("⬇️ Descargar PFD", f, "PFD_ISO.pdf")
 
 st.header("🤖 Tutor de IA")
 if st.toggle("Habilitar IA"):
